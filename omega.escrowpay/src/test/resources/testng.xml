@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Login_User_Read">
+  <parameter name="username" value="rakshit.sinha@itrustmore.com"></parameter>
+  <parameter name="password" value="Rakshit@2024"></parameter>
+  	<classes>
+  		<class name="Features.Login_Page">
+  			<methods>
+  				<include name="LaunchBrowser"></include>
+  				<include name="VisitSite"></include>
+  				<include name="Login"></include>
+  				<include name="ProfileDropdown"></include>
+  				<include name="Profile"></include>
+  				<include name="KYC"></include>
+  				<include name="BankInfo"></include>
+  				<include name="GSTIN"></include>
+  				<include name="Address"></include>
+  				<include name="ProfileDropdown"></include>
+  				<!--
+  				<include name="Logout"></include>
+					
+  				<include name="EscrowAccount"></include>
+  				<include name="WithdrawRequest"></include>
+  				<include name="AccountStatement"></include>
+  				<include name="Deals"></include>
+  				<include name="DealsList"></include>
+  				<include name="ProfileDropdown"></include>
+				-->
+  				
+  			</methods>
+  		</class>
+  	</classes>
+  </test> <!-- Test -->
+  <!--
+  <test name="Login_Admin_Read">
+  <parameter name="username" value="alpha.admin@escrowpayuat.com"></parameter>
+  <parameter name="password" value="aadmin12#"></parameter>
+  	<classes>
+  		<class name="Features.Login_Page">
+  			<methods>
+  				<include name="LaunchBrowser"></include>
+  				<include name="VisitSite"></include>
+  				<include name="Login"></include>
+  				<include name="ProfileDropdown"></include>
+  				<include name="Profile"></include>
+  				<include name="KYC"></include>
+  				<include name="BankInfo"></include>
+  				<include name="GSTIN"></include>
+  				<include name="Address"></include>
+  				<include name="Clients"></include>
+  				<include name="User Management"></include>
+  				<include name="EscrowAccount"></include>
+  				<include name="WithdrawRequest"></include>
+  				<include name="AccountStatement"></include>
+  				<include name="Reports"></include>
+  				<include name="TransactionReports"></include>
+  				<include name="Deals"></include>
+  				<include name="DealsList"></include>
+  				<include name="ProfileDropdown"></include>
+  				<include name="Logout"></include>  				
+  			</methods>
+  		</class>
+  	</classes>
+  </test>
+  -->
+</suite> <!-- Suite -->
