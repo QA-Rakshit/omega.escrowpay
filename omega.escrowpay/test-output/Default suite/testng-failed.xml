@@ -5,7 +5,29 @@
     <classes>
       <class name="Features.Login_Page">
         <methods>
+          <include name="Address"/>
+          <include name="DealsList"/>
+          <include name="GSTIN"/>
+          <include name="CloseBrowser"/>
+          <include name="EscrowAccount"/>
           <include name="Clients"/>
+          <include name="Profile"/>
+          <include name="TransactionReports"/>
+          <include name="VisitSite"/>
+          <include name="Reports"/>
+          <include name="CreateUser"/>
+          <include name="CheckNewUser"/>
+          <include name="BankInfo"/>
+          <include name="Deals"/>
+          <include name="Login"/>
+          <include name="KYC"/>
+          <include name="UserManagement"/>
+          <include name="CheckFormSubmit"/>
+          <include name="Logout"/>
+          <include name="ProfileDropdown"/>
+          <include name="FillForm"/>
+          <include name="AccountStatement"/>
+          <include name="WithdrawRequest"/>
         </methods>
       </class> <!-- Features.Login_Page -->
     </classes>

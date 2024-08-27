@@ -2,60 +2,60 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-22T17:12:39 IST" name="Suite" finished-at="2024-08-22T17:12:49 IST" duration-ms="9967">
+  <suite started-at="2024-08-27T13:02:21 IST" name="Suite" finished-at="2024-08-27T13:02:47 IST" duration-ms="25841">
     <groups>
     </groups>
-    <test started-at="2024-08-22T17:12:39 IST" name="Login_User_Read" finished-at="2024-08-22T17:12:49 IST" duration-ms="9967">
+    <test started-at="2024-08-27T13:02:21 IST" name="Login_Admin_Create_Deal" finished-at="2024-08-27T13:02:47 IST" duration-ms="25841">
       <class name="Features.Login_Page">
-        <test-method signature="LaunchBrowser()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:39 IST" name="LaunchBrowser" finished-at="2024-08-22T17:12:40 IST" duration-ms="901" status="PASS">
+        <test-method signature="LaunchBrowser()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:21 IST" name="LaunchBrowser" finished-at="2024-08-27T13:02:22 IST" duration-ms="900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="VisitSite()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:40 IST" name="VisitSite" finished-at="2024-08-22T17:12:46 IST" duration-ms="6008" status="PASS">
+        <test-method signature="VisitSite()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:22 IST" name="VisitSite" finished-at="2024-08-27T13:02:26 IST" duration-ms="4668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VisitSite -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:46 IST" name="Login" finished-at="2024-08-22T17:12:48 IST" duration-ms="1745" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:26 IST" name="Login" finished-at="2024-08-27T13:02:32 IST" duration-ms="5775" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[rakshit.sinha@itrustmore.com]]>
+                <![CDATA[alpha.admin@escrowpayuat.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Rakshit@2024]]>
+                <![CDATA[aadmin12#]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="ProfileDropdown()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:48 IST" name="ProfileDropdown" finished-at="2024-08-22T17:12:48 IST" duration-ms="54" status="PASS">
+        <test-method signature="Deals()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:32 IST" name="Deals" finished-at="2024-08-27T13:02:32 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deals -->
+        <test-method signature="DealsList()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:32 IST" name="DealsList" finished-at="2024-08-27T13:02:36 IST" duration-ms="4196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DealsList -->
+        <test-method signature="CreateDeal()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:36 IST" name="CreateDeal" finished-at="2024-08-27T13:02:43 IST" duration-ms="6732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDeal -->
+        <test-method signature="ProfileDropdown()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:43 IST" name="ProfileDropdown" finished-at="2024-08-27T13:02:43 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProfileDropdown -->
-        <test-method signature="Profile()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:48 IST" name="Profile" finished-at="2024-08-22T17:12:49 IST" duration-ms="1033" status="PASS">
+        <test-method signature="Logout()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:43 IST" name="Logout" finished-at="2024-08-27T13:02:47 IST" duration-ms="3315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Profile -->
-        <test-method signature="KYC()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:49 IST" name="KYC" finished-at="2024-08-22T17:12:49 IST" duration-ms="43" status="PASS">
+        </test-method> <!-- Logout -->
+        <test-method signature="CloseBrowser()[pri:0, instance:Features.Login_Page@4d9e68d0]" started-at="2024-08-27T13:02:47 IST" name="CloseBrowser" finished-at="2024-08-27T13:02:47 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- KYC -->
-        <test-method signature="BankInfo()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:49 IST" name="BankInfo" finished-at="2024-08-22T17:12:49 IST" duration-ms="41" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BankInfo -->
-        <test-method signature="GSTIN()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:49 IST" name="GSTIN" finished-at="2024-08-22T17:12:49 IST" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GSTIN -->
-        <test-method signature="Address()[pri:0, instance:Features.Login_Page@795cd85e]" started-at="2024-08-22T17:12:49 IST" name="Address" finished-at="2024-08-22T17:12:49 IST" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Address -->
+        </test-method> <!-- CloseBrowser -->
       </class> <!-- Features.Login_Page -->
-    </test> <!-- Login_User_Read -->
+    </test> <!-- Login_Admin_Create_Deal -->
   </suite> <!-- Suite -->
 </testng-results>
